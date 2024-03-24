@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "@capsizecss/core": "^4.1.0",
+    "leading-trim": "^1.0.2"
+  }
+}

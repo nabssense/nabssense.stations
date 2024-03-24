@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.capsizedText {
+  leading-trim: cap ideographic;
+}
+
+.capsizedText::before {
+  content: "";
+  margin-bottom: -0.1641em;
+  display: table;
+}
+
+.capsizedText::after {
+  content: "";
+  margin-top: 0;
+  display: table;
+}
+
+
+  
